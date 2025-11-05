@@ -1,0 +1,8 @@
+USE gm_system;
+
+DROP TABLE IF EXISTS gm_system;
+
+CREATE TABLE turmas (
+    id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    codigo_unico VARCHAR(100) UNIQUE NOT NULL
+);
