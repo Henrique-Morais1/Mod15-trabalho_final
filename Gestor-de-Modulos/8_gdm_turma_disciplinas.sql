@@ -1,0 +1,11 @@
+USE gdm_system;
+
+DROP TABLE IF EXISTS gdm_system;
+
+CREATE TABLE turma_disciplinas (
+    id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    telefone VARCHAR(100) NOT NULL,
+    morada VARCHAR(100) UNIQUE NOT NULL
+);

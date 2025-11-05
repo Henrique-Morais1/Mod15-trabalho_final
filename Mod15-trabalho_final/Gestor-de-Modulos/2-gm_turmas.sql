@@ -1,8 +1,8 @@
-USE gm_system;
+USE lavo;
 
-DROP TABLE IF EXISTS gm_system;
+DROP TABLE IF EXISTS clientes;
 
-CREATE TABLE turma_disciplinas (
+CREATE TABLE clientes (
     id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
     email VARCHAR(100) UNIQUE NOT NULL,

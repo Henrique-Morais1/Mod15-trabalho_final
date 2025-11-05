@@ -1,0 +1,10 @@
+USE gm_system;
+
+DROP TABLE IF EXISTS alunos;
+
+CREATE TABLE alunos (
+    id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+    nome VARCHAR(100) NOT NULL,
+    n_aluno VARCHAR(20) UNSIGNED NOT NULL,
+    PRIMARY KEY (id)
+);
