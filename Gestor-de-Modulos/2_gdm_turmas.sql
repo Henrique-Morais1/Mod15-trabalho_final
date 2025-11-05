@@ -4,5 +4,6 @@ DROP TABLE IF EXISTS gdm_system;
 
 CREATE TABLE turmas (
     id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
-    codigo_unico VARCHAR(100) UNIQUE NOT NULL
+    codigo_unico VARCHAR(100) UNIQUE NOT NULL,
+    PRIMARY KEY (id)
 );
