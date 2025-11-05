@@ -1,0 +1,10 @@
+USE gm_system;
+
+DROP TABLE IF EXISTS modulos;
+
+CREATE TABLE modulos (
+    id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+    id_curso INT(11) UNSIGNED NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id)
+);
