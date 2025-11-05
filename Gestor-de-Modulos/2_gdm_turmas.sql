@@ -1,6 +1,6 @@
-USE gm_system;
+USE gdm_system;
 
-DROP TABLE IF EXISTS gm_system;
+DROP TABLE IF EXISTS gdm_system;
 
 CREATE TABLE turmas (
     id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
