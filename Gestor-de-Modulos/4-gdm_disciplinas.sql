@@ -1,0 +1,9 @@
+USE gm_system;
+
+DROP TABLE IF EXISTS gm_system;
+
+CREATE TABLE disciplinas (
+    id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    id_curso INT(11) UNSIGNED NOT NULL,
+    nome VARCHAR(100) NOT NULL
+);
