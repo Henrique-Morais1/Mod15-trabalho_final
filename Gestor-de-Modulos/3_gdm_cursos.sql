@@ -1,4 +1,4 @@
-USE gm_system;
+USE gdm_system;
 
 DROP TABLE IF EXISTS cursos;
 

@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS gm_system;
+DROP DATABASE IF EXISTS gdm_system;
 
-CREATE DATABASE gm_system;
+CREATE DATABASE gdm_system;
 
-USE gm_system;
+USE gdm_system;
