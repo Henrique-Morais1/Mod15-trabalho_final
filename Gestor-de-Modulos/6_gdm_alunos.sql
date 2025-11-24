@@ -9,5 +9,8 @@ CREATE TABLE alunos (
     n_aluno INT UNSIGNED NOT NULL,
     data_nascimento DATE NOT NULL,
     PRIMARY KEY (id),
+    CONSTRAINT fk_alunos
     FOREIGN KEY (id_turma) REFERENCES turmas(id)
+    ON DELETE CASCADE
+    ON UPDATE RESTRICT
 );

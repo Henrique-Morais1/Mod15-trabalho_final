@@ -1,13 +1,16 @@
 USE gdm_system;
 
-DROP TABLE IF EXISTS gdm_system;
+DROP TABLE IF EXISTS historico_nome_cursos;
 
-CREATE TABLE turma_disciplinas (
-    id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE historico_nome_cursos (
+    id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
     id_turma INT(11) UNSIGNED NOT NULL,
-    id_disciplina INT(11) UNSIGNED NOT NULL,
-    primary KEY (id),
+    id_curso INT(11) UNSIGNED NOT NULL,
+    nome_curso VARCHAR(100) NOT NULL,
+    PRIMARY KEY (id),
+    CONSTRAINT fk_historico_nome_cursos
     FOREIGN KEY (id_turma) REFERENCES turmas(id),
-    FOREIGN KEY (id_disciplina) REFERENCES disciplinas(id)
-
+    FOREIGN KEY (id_curso) REFERENCES cursos(id)
+    ON DELETE CASCADE
+    ON UPDATE RESTRICT
 );
