@@ -6,5 +6,6 @@ CREATE TABLE disciplinas (
     id INT(11) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
     id_curso INT(11) UNSIGNED NOT NULL,
     nome VARCHAR(100) NOT NULL,
-    primary KEY (id)
+    primary KEY (id),
+    FOREIGN KEY (id_curso) REFERENCES cursos(id)
 );
