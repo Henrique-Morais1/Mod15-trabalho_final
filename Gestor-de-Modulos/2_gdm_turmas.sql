@@ -7,3 +7,4 @@ CREATE TABLE turmas (
     codigo_unico VARCHAR(100) UNIQUE NOT NULL,
     PRIMARY KEY (id)
 );
+
