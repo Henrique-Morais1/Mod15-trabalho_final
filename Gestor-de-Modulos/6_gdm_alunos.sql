@@ -14,7 +14,3 @@ CREATE TABLE alunos (
     ON DELETE CASCADE
     ON UPDATE RESTRICT
 );
-
-INSERT INTO alunos (id_turma, nome, n_aluno, data_nascimento) VALUES
-(3, 'Henrique Morais', 31159, '2008-01-02'),
-(3, 'Francisco Prino', 31396, '2007-05-10');

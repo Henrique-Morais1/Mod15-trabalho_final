@@ -13,8 +13,3 @@ CREATE TABLE turmas (
     ON UPDATE RESTRICT
 );
 
-INSERT INTO turmas (id_curso, codigo_unico) VALUES
-(1, '10ºPTPSI'),
-(1, '11ºPTPSI'),
-(2, '12ºTGPSI');
-

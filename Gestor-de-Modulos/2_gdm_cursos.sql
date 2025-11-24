@@ -8,7 +8,3 @@ CREATE TABLE cursos (
     slug VARCHAR(50) NOT NULL UNIQUE,
     PRIMARY KEY (id)
 );
-
-INSERT INTO cursos (nome, slug) VALUES
-('Programação de Sistemas Informáticos', 'PTPSI'),
-('Técnico de Gestão e Programação de Sistemas Informáticos', 'TGPSI');
