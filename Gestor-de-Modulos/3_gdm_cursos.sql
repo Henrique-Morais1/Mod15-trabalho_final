@@ -8,3 +8,4 @@ CREATE TABLE cursos (
     slug VARCHAR(50) NOT NULL UNIQUE,
     PRIMARY KEY (id)
 );
+
