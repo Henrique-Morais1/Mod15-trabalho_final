@@ -14,3 +14,8 @@ CREATE TABLE historico_nome_cursos (
     ON DELETE CASCADE
     ON UPDATE RESTRICT
 );
+
+INSERT INTO historico_nome_cursos (id_turma, id_curso, nome_curso) VALUES
+(1, 1, 'Programação de Sistemas Informáticos'),
+(2, 1, 'Programação de Sistemas Informáticos'),
+(3, 2, 'Técnico de Gestão e Programação de Sistemas Informáticos');
