@@ -7,7 +7,6 @@ CREATE TABLE alunos (
     id_turma INT(11) UNSIGNED NOT NULL,
     nome VARCHAR(100) NOT NULL,
     n_aluno INT UNSIGNED NOT NULL,
-    data_nascimento DATE NOT NULL,
     PRIMARY KEY (id),
     CONSTRAINT fk_alunos
     FOREIGN KEY (id_turma) REFERENCES turmas(id)

@@ -6,11 +6,11 @@ CREATE TABLE modulos (
     id INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
     id_curso INT(11) UNSIGNED NOT NULL,
     nome VARCHAR(100) NOT NULL,
-    n_hora INT UNSIGNED NOT NULL,
-    ano_lecionacao TINYINT NOT NULL,
+    n_hora INT UNSIGNED,
+    ano_lecionacao TINYINT,
     PRIMARY KEY (id),
     CONSTRAINT fk_curso_modulos
     FOREIGN KEY (id_curso) REFERENCES cursos(id)
-    ON DELETE CASCADE
+    ON DELETE RESTRICT
     ON UPDATE RESTRICT
 )

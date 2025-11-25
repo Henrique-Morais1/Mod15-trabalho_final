@@ -9,7 +9,7 @@ CREATE TABLE turmas (
     PRIMARY KEY (id),
     CONSTRAINT fk_curso_turmas
     FOREIGN KEY (id_curso) REFERENCES cursos(id)
-    ON DELETE CASCADE
+    ON DELETE RESTRICT
     ON UPDATE RESTRICT
 );
 
