@@ -243,28 +243,28 @@ INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, d
 (4, 1, 16, '2025-01-15'),
 (5, 1, 17, '2025-04-09'),
 (6, 1, 17, '2025-05-25'),
-(7, 1, 10, '2024-01-10'),
-(8, 1, 11, '2024-03-15'),
-(9, 1, 11, '2024-06-07'),
-(10, 1, 11, '2024-12-04');
+(10, 1, 10, '2024-01-10'),
+(11, 1, 11, '2024-03-15'),
+(12, 1, 11, '2024-06-07'),
+(13, 1, 11, '2024-12-04');
 
 INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, dt_capatilazado) VALUES
-(11, 1, 13, '2025-04-28'),
-(12, 1, 17, '2023-11-30'),
-(13, 1, 19, '2024-04-16'),
-(14, 1, 18, '2024-06-05'),
-(15, 1, 16, '2024-11-25'),
-(16, 1, 17, '2025-02-17'),
-(17, 1, 17, '2025-05-30'),
-(18, 1, 16, '2024-05-29'),
-(19, 1, 20, '2025-05-27'),
-(20, 1, 15, '2024-05-22');
+(14, 1, 13, '2025-04-28'),
+(15, 1, 17, '2023-11-30'),
+(19, 1, 19, '2024-04-16'),
+(20, 1, 18, '2024-06-05'),
+(21, 1, 16, '2024-11-25'),
+(22, 1, 17, '2025-02-17'),
+(23, 1, 17, '2025-05-30'),
+(24, 1, 16, '2024-05-29'),
+(25, 1, 20, '2025-05-27'),
+(26, 1, 15, '2024-05-22');
 
 INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, dt_capatilazado) VALUES
-(21, 1, 18, '2025-05-20'),
-(22, 1, 15, '2024-05-15'),
-(23, 1, 16, '2025-05-27'),
-(24, 1, 14, '2024-04-10'),
+(28, 1, 18, '2025-05-20'),
+(29, 1, 15, '2024-05-15'),
+(31, 1, 16, '2025-05-27'),
+(34, 1, 14, '2024-04-10'),
 (25, 1, 16, '2025-05-20'),
 (26, 1, 17, '2024-04-17'),
 (27, 1, 18, '2025-04-08'),
@@ -1895,11 +1895,9 @@ INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_
 (1, 4, 40, 4.00, 15);
 
 
-
-
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 5, 41, 25.00, 1),
-(1, 5, 42, 25.00, 2),
+(1, 5, 41, 34.00, 1),
+(1, 5, 42, 34.00, 2),
 (1, 5, 43, NULL, NULL),
 (1, 5, 44, NULL, NULL),
 (1, 5, 45, 25.00, 3),
@@ -1923,7 +1921,7 @@ INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_
 (1, 6, 61, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 7, 62,0.00, 5),
+(1, 7, 62, 40.00, 5),
 (1, 7, 63, NULL, NULL),
 (1, 7, 64, NULL, NULL),
 (1, 7, 65, NULL, NULL),
