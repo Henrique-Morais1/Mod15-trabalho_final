@@ -1918,54 +1918,81 @@ INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_
 (1, 6, 59, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 7, 61,0.00, 5),
+(1, 7, 60,0.00, 5),
+(1, 7, 61, NULL, NULL),
 (1, 7, 62, NULL, NULL),
 (1, 7, 63, NULL, NULL),
-(1, 7, 64, NULL, NULL),
-(1, 7, 65, 24.00, 1),
+(1, 7, 64, 24.00, 1),
+(1, 7, 65, NULL, NULL),
 (1, 7, 66, NULL, NULL),
 (1, 7, 67, NULL, NULL),
 (1, 7, 68, NULL, NULL),
 (1, 7, 69, NULL, NULL),
-(1, 7, 70, NULL, NULL),
-(1, 7, 71, 24.00, 2),
-(1, 7, 72, NULL, NULL),
-(1, 7, 73, 25.00, 3),
-(1, 7, 74, NULL, NULL),
-(1, 7, 75, 25.00, 4),
-(1, 7, 76, NULL, NULL),
-(1, 7, 77, 31.00, 6),
+(1, 7, 70, 24.00, 2),
+(1, 7, 71, NULL, NULL),
+(1, 7, 72, 25.00, 3),
+(1, 7, 73, NULL, NULL),
+(1, 7, 74, 25.00, 4),
+(1, 7, 75, NULL, NULL),
+(1, 7, 76, 31.00, 6),
+(1, 7, 77, NULL, NULL),
 (1, 7, 78, NULL, NULL),
-(1, 7, 70, NULL, NULL),
-(1, 7, 70, NULL, NULL);
-INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 8, 90, 22.00, 4),
-(1, 8, 91, 22.00, 6),
-(1, 8, 92, 22.00, 7),
-(1, 8, 93, NULL, NULL);
-INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 9, 67, 300.00, 2),
-(1, 10, 105, 22.00, 6),
-(1, 9, 106, 30.00, 7),
-(1, 9, 107, NULL, NULL);
+(1, 7, 79, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 10, 54, 34.00, 2),
-(1, 10, 55, 34.00, 3);
+(1, 8, 80, 20.00, 1),
+(1, 8, 81, 30.00, 2),
+(1, 8, 82, 32.00, 3),
+(1, 8, 82, 30.00, 4),
+(1, 8, 83, NULL, NULL),
+(1, 8, 84, 18.00, 5);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 11, 56, 33.00, 1),
-(1, 11, 57, 36.00, 1),
-(1, 11, 58, 36.00, 2),
-(1, 11, 59, 30.00, 3),
-(1, 11, 60, 30.00, 4),
-(1, 11, 61, 21.00, 5),
-(1, 11, 62, 30.00, 6),
-(1, 11, 63, 36.00, 7),
-(1, 11, 64, 36.00, 8),
-(1, 11, 65, 15.00, 9),
-(1, 11, 66, 30.00, 12);
+(1, 9, 85, 34.00, 1),
+(1, 9, 86, 33.00, 2),
+(1, 9, 87, 33.00, 3),
+(1, 9, 88, 24.00, 4),
+(1, 9, 89, NULL, NULL),
+(1, 9, 90, 26.00, 5),
+(1, 9, 91, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 12, 67, 300.00, 1),
-(1, 12, 67, 300.00, 2);
+(1, 10, 92, 28.00, 1),
+(1, 10, 93, 34.00, 2),
+(1, 10, 94, 34.00, 3),
+(1, 10, 95, 30.00, 4),
+(1, 10, 96, 30.00, 5),
+(1, 10, 97, 22.00, 6),
+(1, 10, 98, 30.00, 8),
+(1, 10, 99, 22.00, 7),
+(1, 10, 100, NULL, NULL),
+(1, 10, 101, NULL, NULL);
+
+INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
+(1, 11, 102, 33.00, 1),
+(1, 11, 103, 36.00, 2),
+(1, 11, 104, 36.00, 3),
+(1, 11, 105, 30.00, 4),
+(1, 11, 106, 30.00, 5),
+(1, 11, 107, 21.00, 6),
+(1, 11, 108, 30.00, 7),
+(1, 11, 109, 36.00, 8),
+(1, 11, 110, 36.00, 9),
+(1, 11, 111, 33.00, 10),
+(1, 11, 112, 31.00, 11),
+(1, 11, 113, 15.00, 12),
+(1, 11, 114, 30.00, 13),
+(1, 11, 115, 31.00, 14),
+(1, 11, 116, 27.00, 15),
+(1, 11, 117, 60.00, 16),
+(1, 11, 118, 25.00, 19),
+(1, 11, 119, 25.00, 18),
+(1, 11, 120, NULL, NULL),
+(1, 11, 121, NULL, NULL),
+(1, 11, 122, 25.00, 17),
+(1, 11, 123, NULL, NULL),
+(1, 11, 124, NULL, NULL);
+INSERT INO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
+(1, 12, 125, NULL, NULL),
+(1, 12, 126, 300.00, 1),
+(1, 12, 127, 300.00, 2);
