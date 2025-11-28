@@ -13,6 +13,6 @@ CREATE TABLE curso_disciplina_modulos (
     FOREIGN KEY (id_curso) REFERENCES cursos(id),
     FOREIGN KEY (id_disciplina) REFERENCES disciplinas(id),
     FOREIGN KEY (id_modulo) REFERENCES modulos(id)
-    ON DELETE CASCADE
+    ON DELETE RESTRICT
     ON UPDATE RESTRICT
 );
