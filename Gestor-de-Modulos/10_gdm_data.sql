@@ -223,7 +223,7 @@ INSERT INTO alunos(id_turma, nome, n_aluno) VALUES
 (3, 'João Miguel Frias Nicolau', 36922),
 (3, 'Karamjit Singh', 37602);
 
-INSERT INTO alunos(id_turma, nome,n_aluno) VALUES
+INSERT INTO alunos(id_turma, nome,_aluno) VALUES
 (3, 'Lourenço Manuel Almeida Chaves', 37604),
 (3, 'Mário Jorge Lourinho Catarina Chimeque Júnior', 36141),
 (3, 'Mateus Ferreira Penelas', 30902),
@@ -1958,7 +1958,7 @@ INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_
 (1, 8, 95, 32.00, 3),
 (1, 8, 96, 30.00, 4),
 (1, 8, 97, NULL, NULL),
-(1, 8, 98, 18.00, 5);
+(1, 8, 98, 18.00, 5);n
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
 (1, 9, 99, 34.00, 1),
@@ -2006,7 +2006,7 @@ INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_
 (1, 11, 137, NULL, NULL),
 (1, 11, 138, NULL, NULL);
 
-INSERT INO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
+INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
 (1, 12, 139, NULL, NULL),
 (1, 12, 140, 300.00, 1),
 (1, 12, 141, 300.00, 2);
