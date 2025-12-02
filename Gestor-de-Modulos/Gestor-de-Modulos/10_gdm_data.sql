@@ -123,14 +123,14 @@ INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
 (1, 'Titulações Ácido-base', NULL, NULL),
 (1, 'Equilíbrio de Oxidação-redução', NULL, NULL),
 (1, 'Eletroquímica', NULL, NULL),
-(1, 'Estado físico das substâncias e iINTerações moleculares. Estado gasoso.', NULL, NULL),
+(1, 'Estado físico das substâncias e iterações moleculares. Estado gasoso.', NULL, NULL),
 (1, 'Compostos orgânicos. Reações químicas', 31.00, 2),
 (1, 'Polímeros e Materiais Poliméricos', NULL, NULL),
 (1, 'Ligas Metálicas, Materiais Cerâmicos e Compósitos', NULL, NULL);
 
 INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
 (1, 'Introdução aos Sistemas Operativos', 20.00, 2),
-(1, 'Sistema Operativo ClieINTe', 30.00, 2),
+(1, 'Sistema Operativo Cliente', 30.00, 2),
 (1, 'Sistema Operativo Servidor', 32.00, 3),
 (1, 'Sistema Operativo Open Source', 30.00, 3),
 (1, 'Configuração Avançada de Servidores', NULL, NULL),
@@ -138,7 +138,7 @@ INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
 
 INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
 (1, 'Sistemas Digitais', 34.00, 1),
-(1, 'MoINTagem e Configuração de Computadores', 33.00, 1),
+(1, 'Montagem e Configuração de Computadores', 33.00, 1),
 (1, 'Técnicas de Detecção de Avarias', 33.00, 1),
 (1, 'Arquitectura de Microprocessadores', 24.00, 1),
 (1, 'Programação de Microprocessadores', NULL, NULL),
@@ -149,38 +149,38 @@ INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
 (1, 'Comunicação de Dados', 28.00, 2),
 (1, 'Redes de Computadores', 34.00, 2),
 (1, 'Redes de Computadores Avançado', 34.00, 2),
-(1, 'DesenvolvimeINTo de Páginas Web Estáticas', 30.00, 3),
-(1, 'DesenvolvimeINTo de Páginas Web Dinâmicas', 30.00, 3),
+(1, 'Desenvolvimento de Páginas Web Estáticas', 30.00, 3),
+(1, 'Desenvolvimento de Páginas Web Dinâmicas', 30.00, 3),
 (1, 'Programação de Sistemas de Comunicação', 22.00, 3),
 (1, 'Acesso a Bases de Dados via Web', 30.00, 3),
-(1, 'Arquitecturas ClieINTe-Servidor', 22.00, 3),
+(1, 'Arquitecturas Cliente-Servidor', 22.00, 3),
 (1, 'Serviços de Redes', NULL, NULL),
 (1, 'Servidores de Correio Electrónico', NULL, NULL);
 
 INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
-(1, 'IINTrodução à Programação e Algoritmia', 33.00, 1),
-(1, 'Mecanismos de CoINTrolo de Execução', 36.00, 1),
+(1, 'Introdução à Programação e Algoritmia', 33.00, 1),
+(1, 'Mecanismos de Controlo de Execução', 36.00, 1),
 (1, 'Programação Estruturada', 36.00, 1),
 (1, 'Estruturas de Dados Estáticas', 30.00, 1),
 (1, 'Estruturas de Dados Compostas', 30.00, 1),
 (1, 'Estruturas de Dados Dinâmicas', 21.00, 1),
-(1, 'TratameINTo de Ficheiros', 30.00, 1),
+(1, 'Tratamento de Ficheiros', 30.00, 1),
 (1, 'Conceitos Avançados de Programação', 36.00, 2),
-(1, 'IINTrodução à Programação OrieINTada a Objectos', 36.00, 2),
-(1, 'Programação OrieINTada a Objectos', 33.00, 3),
-(1, 'Programação OrieINTada a Objectos Avançada', 31.00, 3),
-(1, 'IINTrodução aos Sistemas de Informação', 15.00, 2),
+(1, 'Introdução à Programação Orientada a Objectos', 36.00, 2),
+(1, 'Programação Orientada a Objectos', 33.00, 3),
+(1, 'Programação Orientada a Objectos Avançada', 31.00, 3),
+(1, 'Introdução aos Sistemas de Informação', 15.00, 2),
 (1, 'Técnicas de Modelação de Dados', 30.00, 2),
 (1, 'Linguagem de Manipulação de Dados', 31.00, 3),
 (1, 'Linguagem de Definição de Dados', 27.00, 3),
 (1, 'Projecto de Software', 60.00, 3),
 (1, 'Tecnologias de Acesso a Bases de Dados', 25.00, 3),
-(1, 'Técnicas de Detecção e TratameINTo de Erros', 25.00, 3),
-(1, 'Metodologias de Análise e DesenvolvimeINTo de Sistemas', NULL, NULL),
+(1, 'Técnicas de Detecção e Tratamento de Erros', 25.00, 3),
+(1, 'Metodologias de Análise e Desenvolvimento de Sistemas', NULL, NULL),
 (1, 'Conceitos de Organização e Gestão de Empresas', NULL, NULL),
-(1, 'FerrameINTas de DesenvolvimeINTo de Páginas Web', 25.00, 3),
-(1, 'FerrameINTas de Animação Gráfica', NULL, NULL),
-(1, 'FerrameINTas de TratameINTo de Imagem', NULL, NULL);
+(1, 'Ferramentas de Desenvolvimento de Páginas Web', 25.00, 3),
+(1, 'Ferramentas de Animação Gráfica', NULL, NULL),
+(1, 'Ferramentas de Tratamento de Imagem', NULL, NULL);
 
 INSERT INTO modulos (id_curso, nome, n_hora, ano_lecionacao) VALUES
 (1, 'Formação em contexto de trabalho 1', NULL, NULL),
@@ -223,7 +223,7 @@ INSERT INTO alunos(id_turma, nome, n_aluno) VALUES
 (3, 'João Miguel Frias Nicolau', 36922),
 (3, 'Karamjit Singh', 37602);
 
-INSERT INTO alunos(id_turma, nome,_aluno) VALUES
+INSERT INTO alunos(id_turma, nome,n_aluno) VALUES
 (3, 'Lourenço Manuel Almeida Chaves', 37604),
 (3, 'Mário Jorge Lourinho Catarina Chimeque Júnior', 36141),
 (3, 'Mateus Ferreira Penelas', 30902),
@@ -243,38 +243,38 @@ INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, d
 (4, 1, 16, '2025-01-15'),
 (5, 1, 17, '2025-04-09'),
 (6, 1, 17, '2025-05-25'),
-(10, 1, 10, '2024-01-10'),
-(11, 1, 11, '2024-03-15'),
-(12, 1, 11, '2024-06-07'),
-(13, 1, 11, '2024-12-04');
+(7, 1, 10, '2024-01-10'),
+(8, 1, 11, '2024-03-15'),
+(9, 1, 11, '2024-06-07'),
+(10, 1, 11, '2024-12-04');
 
 INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, dt_capatilazado) VALUES
-(14, 1, 13, '2025-04-28'),
-(15, 1, 17, '2023-11-30'),
-(19, 1, 19, '2024-04-16'),
-(20, 1, 18, '2024-06-05'),
-(21, 1, 16, '2024-11-25'),
-(22, 1, 17, '2025-02-17'),
-(23, 1, 17, '2025-05-30'),
-(24, 1, 16, '2024-05-29'),
-(25, 1, 20, '2025-05-27'),
-(26, 1, 15, '2024-05-22');
+(11, 1, 13, '2025-04-28'),
+(12, 1, 17, '2023-11-30'),
+(13, 1, 19, '2024-04-16'),
+(14, 1, 18, '2024-06-05'),
+(15, 1, 16, '2024-11-25'),
+(16, 1, 17, '2025-02-17'),
+(17, 1, 17, '2025-05-30'),
+(18, 1, 16, '2024-05-29'),
+(19, 1, 20, '2025-05-27'),
+(20, 1, 15, '2024-05-22');
 
 INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, dt_capatilazado) VALUES
-(28, 1, 18, '2025-05-20'),
-(29, 1, 15, '2024-05-15'),
-(31, 1, 16, '2025-05-27'),
-(32, 1, 14, '2024-04-10'),
-(34, 1, 16, '2025-05-20'),
-(35, 1, 17, '2024-04-17'),
-(38, 1, 18, '2025-04-08'),
-(39, 1, 13, '2023-11-24'),
-(41, 1, 16, '2024-02-28'),
-(42, 1, 18, '2024-05-10');
+(21, 1, 18, '2025-05-20'),
+(22, 1, 15, '2024-05-15'),
+(23, 1, 16, '2025-05-27'),
+(24, 1, 14, '2024-04-10'),
+(25, 1, 16, '2025-05-20'),
+(26, 1, 17, '2024-04-17'),
+(27, 1, 18, '2025-04-08'),
+(28, 1, 13, '2023-11-24'),
+(29, 1, 16, '2024-02-28'),
+(30, 1, 18, '2024-05-10');
 
 INSERT INTO modulos_capitalizados (id_curso_disciplina_modulo, id_aluno, nota, dt_capatilazado) VALUES
-(45, 1, 16, '2024-06-17'),
-(47, 1, 14, '2023-11-21'),
+(31, 1, 16, '2024-06-17'),
+(32, 1, 14, '2023-11-21'),
 (33, 1, 16, '2024-10-29'),
 (34, 1, 18, '2025-05-30'),
 (35, 1, 17, '2025-02-27'),
@@ -1880,133 +1880,92 @@ INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_
 (1, 4, 25, 18.00, 1),
 (1, 4, 26, 15.00, 6),
 (1, 4, 27, 11.00, 11),
-(1, 4, 28, 11.00, 2),
-(1, 4, 29, 10.00, 7),
-(1, 4, 30, 9.00, 12),
-(1, 4, 31, 11.00, 3),
-(1, 4, 32, 9.00, 8),
-(1, 4, 33, 11.00, 13),
-(1, 4, 34, 6.00, 4),
-(1, 4, 35, 6.00, 9),
-(1, 4, 36, 6.00, 14),
-(1, 4, 37, 5.00, 16),
-(1, 4, 38, 4.00, 5),
-(1, 4, 39, 4.00, 10),
-(1, 4, 40, 4.00, 15);
-
+(1, 4, 28, 10.00, 7),
+(1, 4, 29, 11.00, 3),
+(1, 4, 31, 9.00, 8),
+(1, 4, 32, 11.00, 13),
+(1, 4, 33, 6.00, 4),
+(1, 4, 34, 6.00, 9),
+(1, 4, 35, 6.00, 14),
+(1, 4, 36, 5.00, 16),
+(1, 4, 37, 4.00, 5),
+(1, 4, 38, 4.00, 10),
+(1, 4, 39, 4.00, 15);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 5, 41, 34.00, 1),
-(1, 5, 42, 34.00, 2),
+(1, 5, 40, 25.00, 1),
+(1, 5, 41, 25.00, 2),
+(1, 5, 42, NULL, NULL),
 (1, 5, 43, NULL, NULL),
-(1, 5, 44, NULL, NULL),
-(1, 5, 45, 36.00, 3),
-(1, 5, 46, NULL, NULL),
-(1, 5, 47, 36.00, 4),
-(1, 5, 48, NULL, NULL);
+(1, 5, 44, 25.00, 3),
+(1, 5, 45, NULL, NULL),
+(1, 5, 46, 25.00, 4),
+(1, 5, 47, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 6, 49, 33.00, 1),
-(1, 6, 50, 32.00, 2),
-(1, 6, 51, 28.00, 6),
-(1, 6, 52, 38.00, 4),
-(1, 6, 53, 33.00, 3),
-(1, 6, 54, 28.00, 9),
-(1, 6, 55, 23.00, 7),
-(1, 6, 56, 28.00, 5),
-(1, 6, 57, 30.00, 8),
-(1, 6, 58, 27.00, 10),
-(1, 6, 59, NULL, NULL),
-(1, 6, 60, NULL, NULL),
-(1, 6, 61, NULL, NULL),
-(1, 6, 63, NULL, NULL),
-(1, 6, 64, NULL, NULL),
-(1, 6, 65, NULL, NULL);
+(1, 6, 48, 33.00, 1),
+(1, 6, 49, 32.00, 2),
+(1, 6, 35, 28.00, 6),
+(1, 6, 50, 38.00, 4),
+(1, 6, 51, 33.00, 3),
+(1, 6, 52, 28.00, 5),
+(1, 6, 53, 28.00, 5),
+(1, 6, 54, NULL, NULL),
+(1, 6, 55, NULL, NULL),
+(1, 6, 56, NULL, NULL),
+(1, 6, 57, NULL, NULL),
+(1, 6, 58, NULL, NULL),
+(1, 6, 59, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 7, 66, 40.00, 5),
+(1, 7, 61,0.00, 5),
+(1, 7, 62, NULL, NULL),
+(1, 7, 63, NULL, NULL),
+(1, 7, 64, NULL, NULL),
+(1, 7, 65, 24.00, 1),
+(1, 7, 66, NULL, NULL),
 (1, 7, 67, NULL, NULL),
 (1, 7, 68, NULL, NULL),
 (1, 7, 69, NULL, NULL),
 (1, 7, 70, NULL, NULL),
-(1, 7, 71, 24.00, 1),
+(1, 7, 71, 24.00, 2),
 (1, 7, 72, NULL, NULL),
-(1, 7, 73, NULL, NULL),
+(1, 7, 73, 25.00, 3),
 (1, 7, 74, NULL, NULL),
-(1, 7, 75, NULL, NULL),
+(1, 7, 75, 25.00, 4),
 (1, 7, 76, NULL, NULL),
-(1, 7, 77, 24.00, 2),
+(1, 7, 77, 31.00, 6),
 (1, 7, 78, NULL, NULL),
-(1, 7, 79, 25.00, 3),
-(1, 7, 80, NULL, NULL),
-(1, 7, 81, 25.00, 4),
-(1, 7, 82, NULL, NULL),
-(1, 7, 83, 31.00, 6),
-(1, 7, 84, NULL, NULL),
-(1, 7, 85, NULL, NULL),
-(1, 7, 86, NULL, NULL),
-(1, 7, 87, NULL, NULL),
-(1, 7, 88, NULL, NULL),
-(1, 7, 89, NULL, NULL),
-(1, 7, 90, 31.00, 7),
-(1, 7, 91, NULL, NULL),
-(1, 7, 92, NULL, NULL);
+(1, 7, 70, NULL, NULL),
+(1, 7, 70, NULL, NULL);
+INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
+(1, 8, 90, 22.00, 4),
+(1, 8, 91, 22.00, 6),
+(1, 8, 92, 22.00, 7),
+(1, 8, 93, NULL, NULL);
+INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
+(1, 9, 67, 300.00, 2),
+(1, 10, 105, 22.00, 6),
+(1, 9, 106, 30.00, 7),
+(1, 9, 107, NULL, NULL);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 8, 93, 20.00, 1),
-(1, 8, 94, 30.00, 2),
-(1, 8, 95, 32.00, 3),
-(1, 8, 96, 30.00, 4),
-(1, 8, 97, NULL, NULL),
-(1, 8, 98, 18.00, 5);n
+(1, 10, 54, 34.00, 2),
+(1, 10, 55, 34.00, 3);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 9, 99, 34.00, 1),
-(1, 9, 100, 33.00, 2),
-(1, 9, 101, 33.00, 3),
-(1, 9, 102, 24.00, 4),
-(1, 9, 103, NULL, NULL),
-(1, 9, 104, 26.00, 5),
-(1, 9, 105, NULL, NULL);
+(1, 11, 56, 33.00, 1),
+(1, 11, 57, 36.00, 1),
+(1, 11, 58, 36.00, 2),
+(1, 11, 59, 30.00, 3),
+(1, 11, 60, 30.00, 4),
+(1, 11, 61, 21.00, 5),
+(1, 11, 62, 30.00, 6),
+(1, 11, 63, 36.00, 7),
+(1, 11, 64, 36.00, 8),
+(1, 11, 65, 15.00, 9),
+(1, 11, 66, 30.00, 12);
 
 INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 10, 106, 28.00, 1),
-(1, 10, 107, 34.00, 2),
-(1, 10, 108, 34.00, 3),
-(1, 10, 109, 30.00, 4),
-(1, 10, 110, 30.00, 5),
-(1, 10, 111, 22.00, 6),
-(1, 10, 112, 30.00, 8),
-(1, 10, 113, 22.00, 7),
-(1, 10, 114, NULL, NULL),
-(1, 10, 115, NULL, NULL);
-
-INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 11, 116, 33.00, 1),
-(1, 11, 117, 36.00, 2),
-(1, 11, 118, 36.00, 3),
-(1, 11, 119, 30.00, 4),
-(1, 11, 120, 30.00, 5),
-(1, 11, 121, 21.00, 6),
-(1, 11, 122, 30.00, 7),
-(1, 11, 123, 36.00, 8),
-(1, 11, 124, 36.00, 9),
-(1, 11, 125, 33.00, 10),
-(1, 11, 126, 31.00, 11),
-(1, 11, 127, 15.00, 12),
-(1, 11, 128, 30.00, 13),
-(1, 11, 129, 31.00, 14),
-(1, 11, 130, 27.00, 15),
-(1, 11, 131, 60.00, 16),
-(1, 11, 132, 25.00, 19),
-(1, 11, 133, 25.00, 18),
-(1, 11, 134, NULL, NULL),
-(1, 11, 135, NULL, NULL),
-(1, 11, 136, 25.00, 17),
-(1, 11, 137, NULL, NULL),
-(1, 11, 138, NULL, NULL);
-
-INSERT INTO curso_disciplina_modulos (id_curso, id_disciplina, id_modulo, horas_lecionadas, numero_ordem) VALUES
-(1, 12, 139, NULL, NULL),
-(1, 12, 140, 300.00, 1),
-(1, 12, 141, 300.00, 2);
+(1, 12, 67, 300.00, 1),
+(1, 12, 67, 300.00, 2);
