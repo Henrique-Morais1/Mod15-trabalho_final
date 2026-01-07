@@ -7,7 +7,7 @@ CREATE TABLE modulos (
     id_curso INT(11) UNSIGNED NOT NULL,
     nome VARCHAR(100) NOT NULL,
     n_hora INT UNSIGNED,
-    ano_lecionacao TINYINT,
+    ano_lecionacao TINYINT(3),
     PRIMARY KEY (id),
     CONSTRAINT fk_curso_modulos
     FOREIGN KEY (id_curso) REFERENCES cursos(id)
