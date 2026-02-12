@@ -8,6 +8,7 @@ CREATE TABLE curso_disciplina_modulos (
     id_modulo INT(11) UNSIGNED NOT NULL,
     horas_lecionadas DECIMAL(5.2) UNSIGNED,
     numero_ordem TINYINT UNSIGNED,
+    ano_letivo CHAR(15) NOT NULL,
     PRIMARY KEY (id),
     CONSTRAINT fk_curso_disciplina_modulos
     FOREIGN KEY (id_curso) REFERENCES cursos(id),
